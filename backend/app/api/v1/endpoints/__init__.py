@@ -1,0 +1,33 @@
+from app.api.v1.endpoints import (
+    alerts,
+    audit,
+    auth,
+    dashboard,
+    datasets,
+    disks,
+    jobs,
+    network,
+    pools,
+    shares,
+    snapshots,
+    system,
+    tasks,
+    users,
+)
+
+__all__ = [
+    "alerts",
+    "audit",
+    "auth",
+    "dashboard",
+    "datasets",
+    "disks",
+    "jobs",
+    "network",
+    "pools",
+    "shares",
+    "snapshots",
+    "system",
+    "tasks",
+    "users",
+]
